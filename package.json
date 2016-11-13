@@ -1,0 +1,35 @@
+{
+  "name": "auri-app",
+  "version": "0.0.2",
+  "description": "Setup seed for Angular application",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macrusa/Auricolors.git"
+  },
+  "scripts": {
+    "fullbuild": "npm install && npm run serve",
+    "serve": "node server",
+    "test": "karma start karma.conf.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-cookies": "^1.5.8",
+    "angular-messages": "^1.5.8",
+    "angular-mocks": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-touch": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "~4.13.4",
+    "express-ipfilter": "0.0.25",
+    "mysql": "^2.11.1",
+    "needle": "^1.1.2",
+    "open": "0.0.5"
+
+  },
+  "devDependencies": {
+
+  }
+}
